@@ -1,0 +1,4 @@
+# CoreJavaPractise
+
+
+Coming new readme
