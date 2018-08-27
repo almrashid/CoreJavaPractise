@@ -1,10 +1,12 @@
 package Singleton.example;
 
 public class Car {
-    private static Car ourInstance = new Car();
-    public static Car getInstance() {
+    public static Car getOurInstance() {
         return ourInstance;
     }
+
+    private static Car ourInstance = new Car();
+
     private Car() {
     }
 }
